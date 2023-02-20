@@ -1,6 +1,6 @@
 # caturharjo-sehat
 
-My project during community service at Caturharjo, Sleman, Diy.
+My project during community service at Caturharjo, Sleman, DIY.
 
 <img src="https://github.com/royanagist/caturharjo-sehat/blob/main/src/public/image/logo2.png?raw=true" alt="logo" width="200"/>
 This project has been deployed at <a href="https://caturharjo-sehat.web.app/">caturharjo-sehat.web.app</a>
