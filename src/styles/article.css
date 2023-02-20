@@ -1,0 +1,219 @@
+/*--------------------------------------------------------------
+# Explore
+--------------------------------------------------------------*/
+.article {
+  margin-top: 150px;
+}
+
+.article .search-container {
+    padding: 0;
+    margin: auto 8px;
+  }
+  .article .form-control {
+    font-size: 14px;
+  }
+  .article .button-container {
+  padding: 0;
+  margin: auto 8px;
+  }
+  .article .article-item {
+    margin-bottom: 30px;
+  }
+  .article #article-flters {
+    padding: 0;
+    margin: auto 20px auto;
+    list-style: none;
+    text-align: center;
+  }
+  .article #article-flters a {
+    color: #000;
+  }
+  .article #article-flters li {
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 16px 8px 16px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1;
+    text-transform: uppercase;
+    color: #444444;
+    margin-bottom: 5px;
+    transition: all 0.3s ease-in-out;
+    border-radius: 50px;
+    font-family: "Poppins", sans-serif;
+  }
+  .article #article-flters li:hover, .article #article-flters .activeFilter, .article #article-flters .activeFilter:focus {
+    background: #18A0FB;
+  }
+  .article #article-flters li:last-child {
+    margin-right: 0;
+  }
+  .article .article-wrap {
+    margin-top: 9px;
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    background: rgba(54, 52, 58, 0.6);
+    max-height: 300px;
+  }
+  .article .article-wrap::before {
+    content: "";
+    background: rgba(54, 52, 58, 0.6);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    transition: all ease-in-out 0.3s;
+    z-index: 2;
+    opacity: 0;
+  }
+  .article .article-wrap img {
+    transition: all ease-in-out 0.3s;
+    max-width: 100%;
+    /* max-height: 300px; */
+    object-fit: cover;
+  }
+  .article .article-wrap .article-info {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 3;
+    transition: all ease-in-out 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+  }
+  .article .article-wrap .article-info h4 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+  }
+  .article .article-wrap .article-info p {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 14px;
+    /* text-transform: uppercase; */
+    padding: 0;
+    margin: 0;
+    /* font-style: italic; */
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-align: justify;
+  }
+  .article .article-wrap .article-links {
+    text-align: center;
+    z-index: 4;
+  }
+  .article .article-wrap .article-links a {
+    color: #fff;
+    margin: 0 5px 0 0;
+    font-size: 28px;
+    display: inline-block;
+    transition: 0.3s;
+  }
+  .article .article-wrap .article-links a:hover {
+    color: #18A0FB;
+  }
+  .article .article-wrap:hover::before {
+    opacity: 1;
+  }
+  .article .article-wrap:hover img {
+    transform: scale(1.2);
+  }
+  .article .article-wrap:hover .article-info {
+    opacity: 1;
+  }
+  .article .row {
+    padding: 8px 0px;
+  } 
+  
+  .article-btn {
+    font-weight: bold;
+    margin-top: 5px;
+  }
+
+  .article-btn:hover {
+    scale: 1.1;
+  }
+
+  .article-item {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  
+  .detail-title h1{
+    margin-top: 20px;
+  }
+
+  .detail-title h5{
+    margin-bottom: 0px;
+    margin-top: 15px;
+    color: grey;  
+  }
+
+  .detail-title p{
+    margin-top: 0px;
+    color: grey;
+  }
+
+  .detail-info p {
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  @media (max-width: 991px) {
+    .article .article-wrap {
+      max-height: 350px;
+    }
+  }
+
+  @media (min-width: 992px) and (max-width: 1236px){
+    .article .article-wrap {
+      max-height: 280px;
+    }
+  }
+
+  @media (min-width: 768px) and (max-width: 900px){
+    .article .article-wrap {
+      max-height: 250px;
+    }
+  }
+
+  @media (max-width: 600px) {
+    .article .article-wrap {
+      max-height: 300px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .article .article-wrap {
+      max-height: 250px;
+    }
+    .article .article-wrap .article-info h4 {
+      font-size: 15px;
+    }
+    .article .article-wrap .article-info p {
+      font-size: 10px;
+    }
+    .article-btn {
+      font-weight: bold;
+      margin-top: 3px;
+      font-size: 10px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .article .article-wrap {
+      max-height: 180px;
+    }
+  }
+
+

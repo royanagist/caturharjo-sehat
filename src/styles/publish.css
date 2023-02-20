@@ -1,0 +1,31 @@
+  /*--------------------------------------------------------------
+  # Publish
+  --------------------------------------------------------------*/
+.publish-container {
+    margin-top: 150px;
+}
+
+.form-container {
+    margin-top: 0px;
+}
+
+#submit{
+    background-color: #18A0FB;
+    color: white;
+}
+
+#submit:hover{
+    scale: 1.1;
+    background-color: #206bfb;
+    cursor: pointer;
+}
+
+#loading {
+    max-width: 35%;
+    max-height: 28%;
+    display: inline;
+    top: 50%;
+    left: 50%;
+    z-index: 10;
+    position: relative;
+  }
