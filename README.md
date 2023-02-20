@@ -2,7 +2,7 @@
 
 My project during community service at Caturharjo, Sleman, Diy.
 
-<img src="https://github.com/royanagist/caturharjo-sehat/blob/master/src/public/image/logo2.png?raw=true" alt="logo" width="200"/>
+<img src="https://github.com/royanagist/caturharjo-sehat/blob/main/src/public/image/logo2.png?raw=true" alt="logo" width="200"/>
 This project has been deployed at <a href="https://caturharjo-sehat.web.app/">caturharjo-sehat.web.app</a>
 
 ## Installation
